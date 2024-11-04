@@ -37,7 +37,7 @@ jobs:
           sh dl_toolchain.sh
     - name: Start build
       env:
-        TNAME: TX1801
+        TNAME: K2P
       run: |
         mkdir -p /opt/images/
         cd trunk

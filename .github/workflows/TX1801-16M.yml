@@ -37,7 +37,7 @@ jobs:
           sh dl_toolchain.sh
     - name: Start build
       env:
-        TNAME: JCG-Q20
+        TNAME:   CR660X
       run: |
         mkdir -p /opt/images/
         cd trunk

@@ -37,7 +37,7 @@ jobs:
           sh dl_toolchain.sh
     - name: Start build
       env:
-        TNAME: CR660X
+        TNAME: CR660x
       run: |
         mkdir -p /opt/images/
         cd trunk

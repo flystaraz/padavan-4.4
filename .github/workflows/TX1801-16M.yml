@@ -37,7 +37,7 @@ jobs:
           sh dl_toolchain.sh
     - name: Start build
       env:
-        TNAME:   K2P
+        TNAME:   TX1801
       run: |
         mkdir -p /opt/images/
         cd trunk
@@ -162,6 +162,6 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: Padavan-packages
+        name: Padavan-TX1801
         path: /opt/images
         
